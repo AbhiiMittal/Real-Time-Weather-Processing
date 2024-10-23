@@ -61,16 +61,20 @@ User-friendly messages for invalid searches and other issues.
 
 ### Setting up the Project  
 
-1. **Clone the repository**:  
+1. **Clone the repository**:
+    
    git clone https://github.com/AbhiiMittal/Real-Time-Weather-Processing.git
+   
    cd weather-app
 
-2. **Install dependencies**:
+3. **Install dependencies**:
+
    cd frontend  
    npm install  
    cd backend  
    npm install
-3. **Configure Environment Variables**:
+4. **Configure Environment Variables**:
+
    WEATHER_API_KEY=your_openweathermap_api_key  
    DB=your_mongodb_atlas_connection_string  
    SMTP_USER=your_email_address  
@@ -80,7 +84,7 @@ User-friendly messages for invalid searches and other issues.
    PORT=3000  
    BASE_URL="http://localhost:3000"  
    JWT_SECRET=your_token_to_use
-4. **Run the application**:
+6. **Run the application**:
    npm start(for backend)
    npm run dev(for frontend)
 
