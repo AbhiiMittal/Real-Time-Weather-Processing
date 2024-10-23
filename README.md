@@ -85,7 +85,9 @@ User-friendly messages for invalid searches and other issues.
    BASE_URL="http://localhost:3000"  
    JWT_SECRET=your_token_to_use
 6. **Run the application**:
+   
    npm start(for backend)
+   
    npm run dev(for frontend)
 
 ## Dependencies  
