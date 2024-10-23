@@ -6,6 +6,11 @@
 The **Weather App** is a full-stack application that provides real-time weather information for any location around the world. Users can search for a city and view current weather conditions and a 5-day forecast. Additionally, the app sends email notifications about weather alerts using **Nodemailer**. **MongoDB Atlas** is used to store user data.  
 
 
+![app1](https://github.com/user-attachments/assets/8ef510fd-8a9d-47e5-9c5b-a9e57d0ffc74)
+
+![app2](https://github.com/user-attachments/assets/0dee9b1e-5f55-4630-92d1-948744d2f0ed)
+
+
 ## Features  
 
 - **Real-time Weather Data**: Get live weather updates, including temperature, humidity, and wind speed.  
