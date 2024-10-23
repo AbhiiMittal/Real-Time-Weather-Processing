@@ -1,0 +1,52 @@
+.weather-alert-card {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.weather-alert-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.weather-icon {
+    color: #f59e0b;
+}
+
+.card-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 16px;
+}
+
+.manage-alerts-button {
+    width: 100%;
+    background-color: #4CAF48;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.manage-alerts-button:hover {
+    background-color: #4CAF50;
+}
