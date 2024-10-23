@@ -25,9 +25,9 @@ app.use(express.json())
 
 app.use(cors());
 
-// startCityCycle();
+startCityCycle();
 
-// startForecast();
+startForecast();
 
 app.use("/api", city);
 

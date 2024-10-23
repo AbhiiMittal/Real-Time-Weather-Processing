@@ -152,7 +152,7 @@ const startCityCycle = async () => {
       await fetchCityData(city);
       console.log("data fetched")
       cityIndex++;
-      setTimeout(iterateCities, 10);
+      setTimeout(iterateCities, 5*60*1000);
     } else {
       console.log("Completed iterating over all cities.");
     }
